@@ -1,0 +1,50 @@
+.colaborador{
+    width: 100%;
+    max-width: 200px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 32px auto 0 auto;
+}
+
+.colaborador .container-img{
+    border-radius: 10px 10px 0 0;
+    padding: 16px;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    height: 70px;
+    position: relative;
+}
+
+.colaborador img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.colaborador .container-textos{
+    padding: 64px 0 32px 0;
+    text-align: center;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    background-color: #FFF;
+}
+
+.colaborador .container-textos h4{
+    font-weight: 700;
+    margin: 0;
+}
+
+.colaborador .container-textos h5{
+    font-weight: 500;
+    color: #666565;
+    margin: 0;
+}
